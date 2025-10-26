@@ -1,1 +1,13 @@
 C:\Users\David\Desktop\docs
+# 进入你的项目目录
+cd your-repo
+
+# 将文件移动到 docs 文件夹
+mv 功能介绍.md docs/
+mv 日志.md docs/
+mv 机器人设计思路.md docs/
+
+# 添加并提交更改
+git add docs/
+git commit -m "Move documentation files into docs folder"
+git push origin main
