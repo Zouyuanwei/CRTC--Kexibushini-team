@@ -1,9 +1,1 @@
-C:\Users\David\Desktop\docs
-# 删除 docs 文件夹（包括其中所有内容）
-git rm -r docs
 
-# 提交更改
-git commit -m "Remove docs folder"
-
-# 推送到 GitHub
-git push origin main
